@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "padrao";
+    src: url(../fonts/FiraSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: "decorativa";
+    src: url(../fonts/Acme-Regular.ttf)
+}
+
+$fonte-padrao: "padrao";
+$fonte-decorativa: "decorativa";
