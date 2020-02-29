@@ -17,13 +17,16 @@
         <label for="campoDeEntrada">Digite um CPF ou CNPJ</label>
         <input type="text" name="campoDeEntrada" id="campoDeEntrada">
 
-        <button type="submit">CPF</button>
-        <button type="submit">CNPJ</button>
+        <button type="submit" onclick="validarCPF()">CPF</button>
+        <button type="submit" onclick="validarCNPJ()">CNPJ</button>
     </div>
 
-    <span id="resultado">resultado teste</span>
+    <span id="resultado"></span>
+
+    <!-- <input type="text" onkeyup="javascript: formatarCampo(this);" maxlength="18"/> -->
 
 
+    <script src="./js/index.js"></script>
 
 </body>
 
