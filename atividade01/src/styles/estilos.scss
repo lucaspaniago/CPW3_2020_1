@@ -24,7 +24,9 @@ body {
     text-align: center;
 
     label {
-        font-size: 130%;
+        font-size: 160%;
+        color: $cor-botao;
+        text-shadow: 1px 1px 2px #333333;
     }
 
     #campoDeEntrada {
@@ -42,5 +44,27 @@ body {
         padding: 3px 10px 3px 10px;
         text-align: center;
     }
+
+    button {
+        background-color: $cor-botao;
+        color: $cor-texto-botao;
+        //font-family: $fonte-decorativa;
+        margin-top: 10px;
+        font-size: 120%;
+        padding: 10px 15px;        
+        border: none;
+        border-radius: 5px;
+    }
+
+
+}
+
+#resultado {
+    display: block  ;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 360%;
+    color: #365858;
+    text-shadow: 1px 1px 2px #333333;
 }
 

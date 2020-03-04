@@ -21,10 +21,10 @@ export default class CPFView {
     exibirValidacao(resposta) {
         
         if(resposta) {
-            this.$('#resultado').innerText = 'Verdadeiro';
+            this.$('#resultado').innerText = 'CPF válido';
         }
         else {
-            this.$('#resultado').innerText = 'Falso';
+            this.$('#resultado').innerText = 'CPF inválido';
         }
     }
 }

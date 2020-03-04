@@ -21,10 +21,10 @@ export default class CNPJView {
     exibirValidacao(resposta) {
         
         if(resposta) {
-            this.$('#resultado').innerText = 'Verdadeiro';
+            this.$('#resultado').innerText = 'CNPJ válido';
         }
         else {
-            this.$('#resultado').innerText = 'Falso';
+            this.$('#resultado').innerText = 'CNPJ inválido';
         }
     }
 
