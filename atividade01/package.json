@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "parcel src/*.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["CPF", "CNPJ", "Validador"],
+  "author": "Lucas Paniago",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
