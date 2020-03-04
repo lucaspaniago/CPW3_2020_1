@@ -1,0 +1,46 @@
+@import 'cores';
+
+body {
+    margin: 0px;
+    background-color: $cor-bg;
+    //padding: 0px;
+}
+
+#banner {
+    background-color:$cor-texto-decorativo;
+    text-align: center;
+    padding: 30px;
+
+    h1 {
+        margin: 0px;
+        color: $cor-texto-botao;
+        font-size: 250%;
+        text-shadow: 4px 4px 2px #333333;
+    }
+}
+
+#entradaValidador {
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+
+    label {
+        font-size: 130%;
+    }
+
+    #campoDeEntrada {
+        display: block;
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+
+    input {
+        height: 30px;
+        width: 33%;
+        font-size: 110%;
+        border: 1px #cccccc;
+        border-radius: 15px;
+        padding: 3px 10px 3px 10px;
+        text-align: center;
+    }
+}
+
