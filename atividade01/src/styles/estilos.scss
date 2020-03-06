@@ -7,7 +7,7 @@ body {
 }
 
 #banner {
-    background-color:$cor-texto-decorativo;
+    background-color:$cor-texto;
     text-align: center;
     padding: 30px;
 
@@ -25,7 +25,7 @@ body {
 
     label {
         font-size: 160%;
-        color: $cor-botao;
+        color: #333333;
         text-shadow: 1px 1px 2px #333333;
     }
 
@@ -39,7 +39,7 @@ body {
         height: 30px;
         width: 33%;
         font-size: 110%;
-        border: 1px #cccccc;
+        border: 1px solid #b8b4b4;
         border-radius: 15px;
         padding: 3px 10px 3px 10px;
         text-align: center;
