@@ -1,0 +1,22 @@
+{
+    "clientes": [
+        {
+            "nome": "José da Silva",
+            "cpf": "00776617109",
+            "telefone": "(67) 99999-9999",
+            "endereco": "Rua Goiás, 1829"
+        },
+        {
+            "nome": "Lucas Lopes Paniago",
+            "cpf": "00771117111",
+            "telefone": "(67) 98799-9999",
+            "endereco": "Rua Goiás, 1830"
+        },
+        {
+            "nome": "Suellen da Silva Paniago",
+            "cpf": "00776617100",
+            "telefone": "(67) 99933-9999",
+            "endereco": "Rua Goiás, 2829"
+        }
+    ]
+}
