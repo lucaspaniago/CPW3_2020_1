@@ -2,111 +2,130 @@
     "copas_do_mundo": [
         {
             "pais_campeao": "França",
-            "ano": "2018",
+            "ano": 2018,
             "tecnico": "Didier Deschamps",
             "pais_derrotado": "Croácia"
         },
         {
             "pais_campeao": "Alemanha",
-            "ano": "2014",
+            "ano": 2014,
             "tecnico": "Joachim Löw",
             "pais_derrotado": "Argentina"
         },
         {
             "pais_campeao": "Espanha",
-            "ano": "2010",
+            "ano": 2010,
             "tecnico": "Vicente del Bosque",
             "pais_derrotado": "Holanda"
         },
         {
             "pais_campeao": "Itália",
-            "ano": "2006",
+            "ano": 2006,
             "tecnico": "Marcello Lippi",
             "pais_derrotado": "França"
         },
         {
             "pais_campeao": "Brasil",
-            "ano": "2002",
+            "ano": 2002,
             "tecnico": "Felipão",
             "pais_derrotado": "Alemanha"
         },
         {
             "pais_campeao": "França",
-            "ano": "1998",
+            "ano": 1998,
             "tecnico": "Aimé Jacquet",
             "pais_derrotado": "Brasil"
         },
         {
             "pais_campeao": "Brasil",
-            "ano": "1994",
+            "ano": 1994,
             "tecnico": "Carlos Alberto Parreira",
             "pais_derrotado": "Italia"
         },
         {
             "pais_campeao": "Alemanha Ocidental",
-            "ano": "1990",
+            "ano": 1990,
             "tecnico": "Beckenbauer",
             "pais_derrotado": "Argentina"
         },
         {
             "pais_campeao": "Argentina",
-            "ano": "1986",
+            "ano": 1986,
             "tecnico": "Carlos Bilardo",
             "pais_derrotado": "Alemanha Ocidental"
         },
         {
             "pais_campeao": "Italia",
-            "ano": "1982",
+            "ano": 1982,
             "tecnico": "Enzo Bearzot",
             "pais_derrotado": "Alemanha Ocidental"
         },
         {
             "pais_campeao": "Argentina",
-            "ano": "1978",
+            "ano": 1978,
             "tecnico": "César Menotti",
             "pais_derrotado": "Holanda"
         },
         {
             "pais_campeao": "Alemanha Ocidental",
-            "ano": "1974",
+            "ano": 1974,
             "tecnico": "Helmut Schön",
             "pais_derrotado": "Holanda"
         },
         {
             "pais_campeao": "Brasil",
-            "ano": "1970",
+            "ano": 1970,
             "tecnico": "Zagallo",
             "pais_derrotado": "Italia"
         },
         {
             "pais_campeao": "Inglaterra",
-            "ano": "1966",
+            "ano": 1966,
             "tecnico": "Alf Ramsey",
             "pais_derrotado": "Alemanha Ocidental"
         },
         {
             "pais_campeao": "Brasil",
-            "ano": "1962",
+            "ano": 1962,
             "tecnico": "Aymoré Moreira",
             "pais_derrotado": "Tchecoslovaquia"
         },
         {
             "pais_campeao": "Brasil",
-            "ano": "1958",
+            "ano": 1958,
             "tecnico": "Vicente Feola",
             "pais_derrotado": "Suecia"
         },
         {
             "pais_campeao": "Alemanha Ocidental",
-            "ano": "1954",
+            "ano": 1954,
             "tecnico": "Sepp Herberger",
             "pais_derrotado": "Hungria"
         },
         {
             "pais_campeao": "Uruguai",
-            "ano": "1950",
+            "ano": 1950,
             "tecnico": "Juan López Fontana",
             "pais_derrotado": "Brasil"
+        },
+        {
+            "pais_campeao": "Itália",
+            "ano": 1938,
+            "tecnico": "Vittorio Pozzo",
+            "pais_derrotado": "Hungria"
+        },
+        {
+            "pais_campeao": "Itália",
+            "ano": 1934,
+            "tecnico": "Vittorio Pozzo",
+            "pais_derrotado": "Tchecoslovaquia"
+        },
+        {
+            "pais_campeao": "Uruguai",
+            "ano": 1930,
+            "tecnico": "Alberto Suppici",
+            "pais_derrotado": "Argentina"
         }
+
     ]
 }
