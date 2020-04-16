@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "geral-bold";
+    src: url(../fonts/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: "geral";
+    src: url(../fonts/DidactGothic-Regular.ttf);
+}
+
+@font-face {
+    font-family: "secundaria";
+    src: url(../fonts/CabinSketch-Bold.ttf);
+}
+
+$fonte-geral: "geral";
+$fonte-geral-bold: "geral-bold";
+$fonte-secundaria: "secundaria";
