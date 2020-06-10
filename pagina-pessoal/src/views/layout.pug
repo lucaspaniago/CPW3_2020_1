@@ -1,0 +1,62 @@
+doctype html
+
+html(lang='pt-br')
+    head
+        link(rel="stylesheet" href="/styles/estilos.css")
+
+        meta(charset='utf-8')
+        title Lucas Paniago
+    body
+
+        header
+            a(href="/")
+                h1 Lucas Paniago
+
+
+        nav
+            .menu
+                li
+                    a(href="/") Home
+                li
+                    a(href="/about") About
+                li
+                    a(href="/portfolio") Portfólio
+                li
+                    a(href="/") Contato
+
+        #centro
+            #lateral
+
+                
+                #conteudo-lateral
+                    a(href="/")                        
+                        #info
+                            img(src="../img/Lucas.jpg" alt="Imagem do desenvolvedor do site")
+                            h1 Lucas Paniago
+                            h2 Profissional da Tecnologia e da Saúde
+                    p Eterno estudante com a missão de tornar o mundo um lugar melhor para todos.
+                    
+                    #social
+                        a(href="#")
+                            img(src="../img/facebook.png", alt="Facebook")
+                        a(href="#")
+                            img(src="../img/instagram.png", alt="Instagram")
+                        a(href="#")
+                            img(src="../img/youtube.png", alt="You Tube")
+                        a(href="#")
+                            img(src="../img/github.png", alt="Github")
+
+
+                //- span Menu
+                //- ul
+                //-     li
+                //-         a(href="/") Home
+                //-     li
+                //-         a(href="/clientes") Clientes
+
+            #conteudo
+                block conteudo
+
+        #rodape
+            h4 &copy;TSI IFMS Campus Aquidauana.
+

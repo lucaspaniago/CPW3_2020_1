@@ -1,0 +1,210 @@
+
+.noticias-secundarias {
+    display: inline-block;
+    //background-color: blue;
+    width: 100%;
+    .card-secundario {
+        float: left;
+        padding: 0 1.7rem;
+        width: 50%;
+        margin-bottom: 40px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 3px 7px -1px rgba(#000, .1);
+        font-family: sans-serif;
+        border-radius: 5px;
+        overflow: hidden;
+        // z-index: 0;
+
+        a {
+            color: inherit;
+
+            &:hover {
+                color: $color_prime;
+            }
+        }
+
+        &:hover {
+            .foto {
+                transform: scale(1.3) rotate(3deg);
+            }
+        }
+
+        .cabecalho {
+            position: relative;
+            z-index: 0;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .foto {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-size: cover;
+            background-position: center;
+            transition: transform .2s;
+        }
+
+        .detalhes,
+        .detalhes ul {
+            margin: auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        .detalhes {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -100%;
+            margin: auto;
+            transition: left .2s;
+            background: rgba(#000, .6);
+            color: $color_white;
+            padding: 10px;
+            width: 100%;
+            font-size: .9rem;
+
+            a {
+                text-decoration: dotted underline
+            }
+
+            ul li {
+                display: inline-block;
+            }
+
+            .autor:before {
+                font-family: $fonte-padrao;
+                margin-right: 10px;
+            }
+
+            .date:before {
+                font-family: $fonte-padrao;
+                margin-right: 10px;
+            }
+        }
+
+        .dados {
+            padding: 1rem;
+            background: $color_white;
+            position: relative;
+            z-index: 1;
+
+            h1,
+            h2 {
+                font-family: $fonte-padrao;
+            }
+
+            h1 {
+                line-height: 1;
+                margin: 0;
+                font-size: 1.7rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+                font-weight: 300;
+                text-transform: uppercase;
+                color: $color_grey_dark;
+                margin-top: 5px;
+            }
+
+            .leia-mais {
+                text-align: right;
+
+                a {
+                    color: $color_prime;
+                    display: inline-block;
+                    position: relative;
+                    width: 100%;
+
+                    &:after {
+                        font-family: $fonte-padrao;
+                        margin-left: -10px;
+                        opacity: 0;
+                        vertical-align: middle;
+                        transition: margin .3s, opacity .3s;
+                    }
+
+                    &:hover:after {
+                        margin-left: 5px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        p {
+            position: relative;
+            margin: 1rem 0 0;
+
+            &:first-of-type {
+                margin-top: 1.25rem;
+
+                &:before {
+                    position: absolute;
+                    height: 5px;
+                    background: $color_prime;
+                    width: 35px;
+                    top: -0.75rem;
+                    border-radius: 3px;
+                }
+            }
+        }
+
+        &:hover {
+            .detalhes {
+                left: 0%;
+            }
+        }
+
+
+        @media (min-width: 1000px) {
+            flex-direction: row;
+
+            .cabecalho {
+                flex-basis: 40%;
+                height: auto;
+            }
+
+            .dados {
+                flex-basis: 60%;
+
+                &:before {
+                    transform: skewX(-3deg);
+                    background: #fff;
+                    width: 30px;
+                    position: absolute;
+                    left: -10px;
+                    top: 0;
+                    bottom: 0;
+                    z-index: -1;
+                }
+            }
+
+            &.alt {
+                flex-direction: row-reverse;
+
+                .dados {
+                    &:before {
+                        left: inherit;
+                        right: -10px;
+                        transform: skew(3deg)
+                    }
+                }
+
+                .detalhes {
+                    padding-left: 25px;
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            width: 100%;
+        }
+    }
+}
